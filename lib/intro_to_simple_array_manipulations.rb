@@ -1,4 +1,4 @@
-def using_push(input, info)
+def using_push(array, info)
   array.push(info)
 end
 
