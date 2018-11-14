@@ -39,10 +39,6 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  array.each do |arr|
-    if arr == string
-      delete arr
-    end
-  end
+  array.delete(string)
   
 end
