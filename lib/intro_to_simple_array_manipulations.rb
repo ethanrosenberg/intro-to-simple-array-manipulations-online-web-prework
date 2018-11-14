@@ -42,6 +42,7 @@ def using_delete(array, string)
   array.each do |arr|
     if arr == string
       delete arr
+    end
   end
   
 end
