@@ -43,3 +43,5 @@ def using_delete(array, string)
     if arr == string
       delete arr
   end
+  
+end
